@@ -18,9 +18,22 @@ class Post
                 "video pembelajaran" => "",
                 "slide pembelajaran" => "",
             ],
-            "persyaratan" => "persyaratan",
-            "benefit" => "benefit",
-            "pelaksanaan" => "pelaksanaan",
+            "persyaratan" => [
+                "1" => "persyaratan 1",
+                "2" => "persyaratan 2",
+                "3" => "persyaratan 3"
+            ],
+            "benefit" => [
+                "1" => "benefit 1",
+                "2" => "benefit 2",
+                "3" => "benefit 3"
+            ],
+            "pelaksanaan" => [
+                "1" => "ke 1",
+                "2" => "ke 2",
+                "3" => "ke 3",
+                "4" => "ke 4"
+            ],
             "biaya" => [
                 "Paket 1" => "1",
                 "Paket 2" => "2"
@@ -42,9 +55,26 @@ class Post
                 "video pembelajaran" => "",
                 "slide pembelajaran" => "",
             ],
-            "persyaratan" => "persyaratan",
-            "benefit" => "benefit",
-            "pelaksanaan" => "pelaksanaan",
+            "persyaratan" => [
+                "1" => "Minimal Usia 15 Tahun",
+                "2" => "Mampu membaca Al Quran dengan Baik & Benar",
+                "3" => "Menyelesaikan Program hingga selesai",
+                "4" => "Menyelesaikan Prosedur Pendaftaran"
+            ],
+            "benefit" => [
+                "1" => "Materi mengenai Kesalahan Umum membaca Surah Al Fatihah",
+                "2" => "Bimbingan Privat oleh Syekh & Ustadz Ahli serta Bersanad",
+                "3" => "Mendapatkan Ijazah Sanad Elektronik atau Sertifikat Elektronik",
+                "4" => "Diagnosa Tahsin Surah Al Fatihah"
+            ],
+            "pelaksanaan" => [
+                "1" => "Live menggunakan Zoom Meeting atau Video Call Whatsapp",
+                "2" => "Peserta menyerahkan Rekaman audio Bacaan Surah Al Fatihah paling lambat Hari Coming Soon",
+                "3" => "Pertemuan 1 : Coming Soon",
+                "4" => "Pertemuan 2 : Coming Soon",
+                "5" => "Pertemuan 3 : Coming Soon",
+                "6" => "Pertemuan 4 : Coming Soon",
+            ],
             "biaya" => [
                 "Paket 1" => "1",
                 "Paket 2" => "2"

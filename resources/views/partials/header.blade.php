@@ -366,7 +366,7 @@
             <div class="container-fluid container-1470 d-flex align-items-center justify-content-between">
                 <div class="header-left">
                     <div class="site-logo">
-                        <a href="index.html"><img src="{{ url('logo.png') }}" class="img-fluid" width="100" height="100"
+                        <a href="/"><img src="{{ url('logo.png') }}" class="img-fluid" width="100" height="100"
                                 alt="Omnivus"></a>
                     </div>
                 </div>

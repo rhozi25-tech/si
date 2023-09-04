@@ -161,20 +161,22 @@
                                 <p class="mb-2 sub-judul" style="font-size: 16pt; font-weight:bold">Persyaratan Peserta</p>
                                 <p class="mb-2">
                                 <ol style="font-size: 13pt" class="ml-3">
-                                    <li>Minimal Usia 15 Tahun </li>
-                                    <li>Mampu membaca Al Quran dengan Baik & Benar</li>
-                                    <li>Menyelesaikan Program hingga selesai</li>
-                                    <li>Menyelesaikan Prosedur Pendaftaran</li>
+                                   
+                                    @for ($i = 1; $i <= count($post['persyaratan']); $i++)
+                                        <li>{{ $post['persyaratan'][$i] }} </li>
+                                    @endfor
+
                                 </ol>
                                 </p>
+
+
 
                                 <p class="mb-2 sub-judul" style="font-size: 16pt; font-weight:bold">Benefit Peserta</p>
                                 <p class="mb-2">
                                 <ol style="font-size: 13pt" class="ml-3">
-                                    <li>Materi mengenai Kesalahan Umum membaca Surah Al Fatihah </li>
-                                    <li>Bimbingan Privat oleh Syekh & Ustadz Ahli serta Bersanad</li>
-                                    <li>Mendapatkan Ijazah Sanad Elektronik atau Sertifikat Elektronik</li>
-                                    <li>Diagnosa Tahsin Surah Al Fatihah</li>
+                                    @for ($i = 1; $i <= count($post['benefit']); $i++)
+                                        <li>{{ $post['benefit'][$i] }} </li>
+                                    @endfor
                                 </ol>
                                 </p>
                             </div>
@@ -183,12 +185,9 @@
                                 <p class="mb-2 sub-judul" style="font-size: 16pt; font-weight:bold">Pelaksanaan Program</p>
                                 <p class="mb-2">
                                 <ol style="font-size: 13pt" class="ml-3">
-                                    <li>Live menggunakan <b>Zoom Meeting atau Video Call Whatsapp</b></li>
-                                    <li>Peserta menyerahkan Rekaman audio Bacaan Surah Al Fatihah paling lambat Hari <b>Coming Soon</b></li>
-                                    <li>Pertemuan 1 :<b> Coming Soon </b> </li>
-                                    <li>Pertemuan 2 :<b> Coming Soon </b> </li>
-                                    <li>Pertemuan 3 :<b> Coming Soon </b> </li>
-                                    <li>Pertemuan 4 :<b> Coming Soon </b> </li>
+                                    @for ($i = 1; $i <= count($post['pelaksanaan']); $i++)
+                                    <li>{{ $post['pelaksanaan'][$i] }} </li>
+                                @endfor
                                 </ol>
                                 </p>
 
