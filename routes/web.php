@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PostController;
 use App\Models\Post;
 use Illuminate\Support\Facades\Route;
 
@@ -22,23 +23,9 @@ Route::get('/', function () {
 
 
 
-Route::get('/program', function () {
-    $program_post = Post::all();
+Route::get('/program', [PostController::class, 'index']);
 
-    return view('program', [
-        'title' => "Program SI",
-        'posts' => $program_post
-    ]);
-});
-
-Route::get('program/{slug}', function($slug){
-    
-
-    return view('post', [
-        'title' => "Halaman Post",
-        'post' => Post::find($slug)
-    ]);
-});
+Route::get('program/{slug}', [PostController::class, 'show']);
 
 
 Route::get('/tentang', function () {
