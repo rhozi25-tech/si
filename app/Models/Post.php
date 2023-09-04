@@ -35,20 +35,20 @@ class Post
 
     public static function all()
     {
-        return self::$program_posts;
+        return collect(self::$program_posts);
     }
 
     public static function find($slug)
     {
-        $postingan = self::$program_posts;
+        $postingan = static::all();
 
-        $new_post = [];
-        foreach ($postingan as $post) {
-            if ($post['slug'] === $slug) {
-                $new_post = $post;
-            }
-        }
+        // $new_post = [];
+        // foreach ($postingan as $post) {
+        //     if ($post['slug'] === $slug) {
+        //         $new_post = $post;
+        //     }
+        // }
 
-        return $new_post;
+        return $postingan->firstWhere('slug', $slug);
     }
 }
