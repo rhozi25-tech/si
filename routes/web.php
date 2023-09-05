@@ -24,8 +24,9 @@ Route::get('/', function () {
 
 
 Route::get('/program', [PostController::class, 'index']);
-
 Route::get('program/{slug}', [PostController::class, 'show']);
+Route::get('/insert-data', [PostController::class, 'insertData']);
+
 
 
 Route::get('/tentang', function () {

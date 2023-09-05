@@ -161,12 +161,11 @@
                                 <p class="mb-2 sub-judul" style="font-size: 16pt; font-weight:bold">Persyaratan Peserta</p>
                                 <p class="mb-2">
                                 <ol style="font-size: 13pt" class="ml-3">
-                                   
-                                    @for ($i = 1; $i <= count($post['persyaratan']); $i++)
-                                        <li>{{ $post['persyaratan'][$i] }} </li>
-                                    @endfor
-
+                                    @foreach (json_decode($post['persyaratan']) as $item)
+                                        <li>{{ $item }}</li>
+                                    @endforeach
                                 </ol>
+
                                 </p>
 
 
@@ -174,9 +173,9 @@
                                 <p class="mb-2 sub-judul" style="font-size: 16pt; font-weight:bold">Benefit Peserta</p>
                                 <p class="mb-2">
                                 <ol style="font-size: 13pt" class="ml-3">
-                                    @for ($i = 1; $i <= count($post['benefit']); $i++)
-                                        <li>{{ $post['benefit'][$i] }} </li>
-                                    @endfor
+                                    @foreach (json_decode($post['benefit']) as $item)
+                                        <li>{{ $item }}</li>
+                                    @endforeach
                                 </ol>
                                 </p>
                             </div>
@@ -185,9 +184,9 @@
                                 <p class="mb-2 sub-judul" style="font-size: 16pt; font-weight:bold">Pelaksanaan Program</p>
                                 <p class="mb-2">
                                 <ol style="font-size: 13pt" class="ml-3">
-                                    @for ($i = 1; $i <= count($post['pelaksanaan']); $i++)
-                                    <li>{{ $post['pelaksanaan'][$i] }} </li>
-                                @endfor
+                                    @foreach (json_decode($post['pelaksanaan']) as $item)
+                                        <li>{!! $item !!}</li>
+                                    @endforeach
                                 </ol>
                                 </p>
 

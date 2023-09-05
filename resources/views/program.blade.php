@@ -22,7 +22,7 @@
                             <div class="card-body">
                                 <p style="font-size: 14pt;" class="card-title"><a
                                         style="-webkit-line-clamp: 2; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;"
-                                        href="/program/{{ $post['slug'] }}">{{ $post['title'] }}</a></p>
+                                        href="/program/{{ $post['id'] }}">{{ $post['title'] }}</a></p>
                                 <hr>
                                 <div class="d-flex bd-highlight mb-3">
                                     <div class="mr-auto bd-highlight font-weight-bold">Mulai Rp. 10.000</div>
@@ -44,7 +44,7 @@
                                     style="-webkit-line-clamp: 3; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;">
                                     {{ $post['isi'] }}
                                 </p> --}}
-                                <a href="/program/{{ $post['slug'] }}" class="btn btn-outline-primary d-block btn-sm">Lihat
+                                <a href="/program/{{ $post['id'] }}" class="btn btn-outline-primary d-block btn-sm">Lihat
                                     Detail</a>
                             </div>
                         </div>
