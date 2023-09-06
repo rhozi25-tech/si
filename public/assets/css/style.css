@@ -45,12 +45,32 @@
   src: url("../fonts/GilroyBold.eot") format("embedded-opentype"), url("../fonts/GilroyBold.woff2") format("woff2"), url("../fonts/GilroyBold.woff") format("woff"), url("../fonts/GilroyBold.ttf") format("truetype"), url("../fonts/GilroyBold.svg#GilroyBold") format("svg");
 }
 
+/* Atur overflow dan ukuran kartu */
+.gallery-container {
+	overflow: hidden; /* Menghilangkan garis overflow */
+	white-space: nowrap;
+}
+.gallery-card {
+	display: inline-block;
+	width: 200px; /* Sesuaikan lebar kartu sesuai kebutuhan */
+	margin-right: 10px; /* Jarak antara kartu */
+}
+.gallery-container::-webkit-scrollbar {
+	width: 0.25rem;
+}
+.gallery-container::-webkit-scrollbar-thumb {
+	background: #888;
+}
 .unggulan {
 	border-top-left-radius: 50px;
 	border-top-right-radius: 50px;
 	margin-top: -50px;
 	background-color: white;
 	position: relative;
+}
+
+.program_event {
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 

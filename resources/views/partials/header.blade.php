@@ -3,9 +3,15 @@
 
 <head>
     <!--====== Required meta tags ======-->
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="description" content="" />
+    <meta charset="UTF-8">
+    <meta name="description" content="Sekolah Impian: Pondok Pesantren Tahfiz dan IT (QBS-FQ)">
+    <meta name="keywords" content="sekolah, impian, pendidikan, terbaik, kualitas, prestasi">
+    <meta name="author" content="Fahim Quran Plus & Quadrant Boarding School">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Meta untuk sosial media (Opsional) -->
+    <meta property="og:title" content="Sekolah Impian: Pondok Pesantren Tahfiz dan IT (QBS-FQ)">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!--====== Title ======-->
@@ -387,10 +393,10 @@
                                 <a class="nav-link dropdown-toggle" href="#" id="programDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Program
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="programDropdown">
-                                    <a class="dropdown-item" href="#">Ektrakurikuler</a>
-                                    <a class="dropdown-item" href="/program">GSI Academy</a>
-                                    <a class="dropdown-item" href="#">Berita</a>
+                                <div class="dropdown-menu bg-secondary text-white" aria-labelledby="programDropdown">
+                                    <a class="dropdown-item" style="color:white" href="">Ektrakurikuler</a>
+                                    <a class="dropdown-item" style="color:white" href="/program">GSI Academy</a>
+                                    <a class="dropdown-item" style="color:white" href="#">Berita</a>
                                     <!-- Tambahkan submenu sesuai kebutuhan -->
                                 </div>
                             </li>

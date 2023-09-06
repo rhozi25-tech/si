@@ -10,4 +10,5 @@ class Post extends Model
     use HasFactory;
 
     protected $fillable = ['title', 'slug', 'gambar', 'penulis', 'isi', 'via', 'persyaratan', 'benefit', 'pelaksanaan', 'biaya'];
+
 }
