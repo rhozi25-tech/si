@@ -21,6 +21,30 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/bidang-tahfiz', function () {
+    return view('program_unggulan/tahfiz', [
+        'title' => "Bidang Tahfiz"
+    ]);
+});
+
+Route::get('/bidang-it', function () {
+    return view('program_unggulan/it', [
+        'title' => "Bidang IT"
+    ]);
+});
+
+Route::get('/bidang-bahasa', function () {
+    return view('program_unggulan/bahasa', [
+        'title' => "Bidang Bahasa"
+    ]);
+});
+
+Route::get('/bidang-karakter', function () {
+    return view('program_unggulan/karakter', [
+        'title' => "Bidang Karakter"
+    ]);
+});
+
 
 
 Route::get('/program', [PostController::class, 'index']);
@@ -28,6 +52,12 @@ Route::get('program/{slug:slug}', [PostController::class, 'show']);
 Route::get('/insert-data', [PostController::class, 'insertData']);
 
 
+
+Route::get('/tentang', function () {
+    return view('about', [
+        'title' => "Tentang SI"
+    ]);
+});
 
 Route::get('/tentang', function () {
     return view('about', [

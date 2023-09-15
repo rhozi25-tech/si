@@ -1,56 +1,57 @@
 <!--====== Footer PART START ======-->
-<footer class="footer-area">
+<style>
+    /* Ganti warna teks link menjadi putih */
+    .list-unstyled a {
+        color: white;
+        text-decoration: none;
+        /* Hilangkan garis bawah pada tautan */
+    }
+</style>
+<footer class="warna-si-oren">
     <div class="container">
-        <div class="row footer-widgets">
-            <div class="col-lg-4 col-md-6 col-md-7">
-                <div class="widget about-widget">
-                    <div class="logo">
-                        <img src="{{ url('logo.png') }}" class="img-fluid" width="150" height="150" alt="">
-                    </div>
-                    <p class="text-justify">Sekolah impian (SI) adalah intitusi yang tumbuh dari cita-cita luhur para
-                        pendiri yang ingin
-                        meraih Ridlo Allah Taala dengan cara berdakwah melalui jalur pendidikan. Metode yang
-                        digunakan adalah mendidik para santri/siswa/i menjadi seorang penghafal Al-Quran dan
-                        sekaligus mendidik mereka menjadi seorang ahli dalam bidang teknologi informasi (IT).</p>
-                </div>
+        <div class="row text-white">
+            <div class="col-sm-4 p-4">
+                <h4 class="text-white">Tentang</h4>
+                <br>
+                <p class="text-justify">Sekolah impian (SI) adalah intitusi yang tumbuh dari cita-cita luhur para pendiri
+                    yang ingin meraih Ridlo Allah Taala dengan cara berdakwah melalui jalur pendidikan. Metode yang
+                    digunakan adalah mendidik para santri/siswa/i menjadi seorang penghafal Al-Quran dan sekaligus
+                    mendidik mereka menjadi seorang ahli dalam bidang teknologi informasi (IT).</p>
             </div>
-            <div class="col-lg-3 col-md-6 offset-xl-1">
-                <div class="widget nav-widget">
-                    <h4 class="widget-title">Kontak Kami</h4>
-                    <div class="footer-list">
-                        <ul>
-                            <li><a href="https://wa.me/+6281221998970"><i class="fal fa-angle-right"></i> Whatsapp</a>
-                            </li>
-                            <li><a href="https://www.instagram.com/quadrantboardingschool/"><i
-                                        class="fal fa-angle-right"></i> Instagram</a></li>
-                            <li><a href="https://www.youtube.com/c/SekolahImpianku"><i class="fal fa-angle-right"></i>
-                                    Youtube Sekolah Impian</a></li>
-                            <li><a href="https://www.youtube.com/c/SekolahImpianTV"><i class="fal fa-angle-right"></i>
-                                    Youtube SI TV</a></li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="col-sm-4 p-4">
+                <h4 class="text-white">Informasi</h4>
+                <p>
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-map-marker"></i> Kampung Ciangsana, RT.02/RW.04, Tapos I, Kec. Tenjolaya,
+                        Kabupaten Bogor, Jawa Barat 16371</li>
+                    <li><i class="fa fa-phone"></i> 08161123811</li>
+                    <li><i class="fa fa-envelope"></i> <a
+                            href="mailto:info@sekolahimpian.com">info@sekolahimpian.com</a></li>
+                </ul>
+                </p>
             </div>
-            <div class="col-lg-4 col-md-6 col-md-6">
-                <div class="widget contact-widget">
-                    <h4 class="widget-title">Alamat Kami</h4>
-                    <p>Kampung Ciangsana, RT.02/RW.04, Tapos I, Kec. Tenjolaya, Kabupaten Bogor, Jawa Barat 16371</p>
-                    <!--====== Contact Map start ======-->
-                    <section class="contact-map">
-                        <div class="contact-map-one">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.925009996818!2d106.69447731537332!3d-6.656216666922858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69d0413a51008d%3A0x4216c9d21d02a98e!2sPondok%20Pesantren%20Fahim%20Quran%20Plus!5e0!3m2!1sid!2sid!4v1631198632992!5m2!1sid!2sid"
-                                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                        </div>
-                    </section>
-                </div>
+            <div class="col-sm-4 p-4">
+                <h4 class="text-white">Ikuti Kami</h4>
+                <p>
+                <ul class="list-unstyled">
+                    <li><i class="fab fa-youtube"></i> <a href="https://www.youtube.com">Youtube</a></li>
+                    <li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com">Instagram</a></li>
+                    <li><i class="fab fa-facebook"></i> <a href="https://www.facebook.com">Facebook</a></li>
+                    <li><i class="fab fa-telegram"></i> <a href="https://www.telegram.org">Telegram</a></li>
+                </ul>
+                </p>
             </div>
+
+
         </div>
-        <div class="footer-copyright">
-            <p>Copyright By@ <a href="#">Sekolah Impian</a> - 2023</p>
-        </div>
+
     </div>
 </footer>
+<div class="row" style="background-color: #bd711b; padding: 20px 0 30px 0" class="text-center">
+    <div class="col-sm-12">
+        <p class="text-center text-white">Copyright SekolahImpian @2023</p>
+    </div>
+</div>
 <!--====== Footer PART ENDS ======-->
 
 <!--====== Jquery ======-->

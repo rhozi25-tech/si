@@ -44,12 +44,12 @@
 			navToggler = $('.nav-toggler'),
 			closeIcon = $('.nav-close');
 
-		// Adds toggle button to li items that have children
-		menuItems.find('li a').each(function () {
-			if ($(this).next().length > 0) {
-				$(this).parent('li').append('<span class="dd-trigger"><i class="fal fa-plus"></i></span>');
-			}
-		});
+		// // Adds toggle button to li items that have children
+		// menuItems.find('li a').each(function () {
+		// 	if ($(this).next().length > 0) {
+		// 		$(this).parent('li').append('<span class="dd-trigger"><i class="fal fa-plus"></i></span>');
+		// 	}
+		// });
 
 		// expands the dropdown menu on each click
 		menuItems.find('li .dd-trigger').on('click', function (e) {

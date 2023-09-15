@@ -9,7 +9,7 @@
     <meta name="author" content="Fahim Quran Plus & Quadrant Boarding School">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
-    
+
     <!-- Meta untuk sosial media (Opsional) -->
     <meta property="og:title" content="Sekolah Impian: Pondok Pesantren Tahfiz dan IT (QBS-FQ)">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -341,73 +341,58 @@
 
     <!--====== Header Part Start ======-->
     <header class="header-one sticky-top">
-        <div class="header-topbar d-none d-sm-block">
-            <div class="container-fluid container-1470">
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-sm-auto col-12">
-                        <ul class="contact-info text-center">
-                            <li><a href="#"><i class="fal fa-envelope"></i> admin@sekolahimpian.com</a></li>
-                            <li><a href="https://wa.me/+6281221998970"><i class="fal fa-phone"></i> 0812-2199-8970</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-auto col-12">
-                        <div class="social-icon text-center">
-                            <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="https://www.youtube.com/c/SekolahImpianku"><i
-                                            class="fab fa-youtube"></i></a></li>
-                                <li id="google_translate_element"></li>
-                            </ul>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
         <div class="header-navigation bg-white">
             <div class="container-fluid container-1470 d-flex align-items-center justify-content-between">
                 <div class="header-left">
                     <div class="site-logo">
-                        <a href="/"><img src="{{ url('logo.png') }}" class="img-fluid" width="100" height="100"
-                                alt="Omnivus"></a>
+                        <a href="/"><img src="{{ url('logo.png') }}" class="img-fluid" width="100"
+                                height="100" alt="Omnivus"></a>
                     </div>
                 </div>
                 <div class="header-right d-flex align-items-center justify-content-end">
                     <div class="site-nav-menu">
-                        <ul class="primary-menu">
-                            <li class="current">
-                                <a class="nav-link" href="/">Beranda</a>
+                        <ul class="primary-menu" style="margin-top: 10px">
+                            <li>
+                                <a class="nav-link" href="/" style="color:#f6921f;">Home</a>
                             </li>
                             <li>
-                                <a class="nav-link" href="/tentang">Tentang SI </a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="/kurikulum">Kurikulum SI</a>
-
+                                <a class="nav-link" href="/tentang" style="color:#f6921f;">Tentang SI</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="programDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Program
+                                <a class="nav-link dropdown-toggle" href="#" id="programDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                    style="color: #f6921f">
+                                    4 Program Utama
                                 </a>
                                 <div class="dropdown-menu bg-secondary text-white" aria-labelledby="programDropdown">
-                                    <a class="dropdown-item" style="color:white" href="">Ektrakurikuler</a>
-                                    <a class="dropdown-item" style="color:white" href="/program">GSI Academy</a>
-                                    <a class="dropdown-item" style="color:white" href="#">Berita</a>
+                                    <a class="dropdown-item" style="color:white" href="/bidang-tahfiz">Bidang Tahfizhul Quran</a>
+                                    <a class="dropdown-item" style="color:white" href="/bidang-it">Bidang Teknologi Informasi</a>
+                                    <a class="dropdown-item" style="color:white" href="/bidang-bahasa">Bidang Bahasa</a>
+                                    <a class="dropdown-item" style="color:white" href="/bidang-karakter">Bidang Karakter</a>
+
                                     <!-- Tambahkan submenu sesuai kebutuhan -->
                                 </div>
                             </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="programDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                    style="color: #f6921f">
+                                    Pendaftaran Santri Baru
+                                </a>
+                                <div class="dropdown-menu bg-secondary text-white" aria-labelledby="programDropdown">
+                                    <a class="dropdown-item" style="color:white" href="https://psb.sekolahimpian.com">Pendaftaran Tingkat SMP</a>
+                                    <a class="dropdown-item" style="color:white" href="https://psb.sekolahimpian.com">Pendaftaran Tingkat SMA</a>
+                                    <a class="dropdown-item" style="color:white" href="https://psb.sekolahimpian.com">Pendaftaran Tingkat "Dhuafa"</a>
+                                    <a class="dropdown-item" style="color:white" href="https://psb.sekolahimpian.com">Pendaftaran Tingkat "STFQ"</a>
+                                    <!-- Tambahkan submenu sesuai kebutuhan -->
+                                </div>
+                            </li>
+                            
                             <li>
-                                <a class="nav-link" href="/karya">Karya Santri</a>
+                                <a class="nav-link" href="/kontak" style="color:#f6921f;">Kontak</a>
                             </li>
                             <li>
-                                <a class="nav-link" href="/kontak">Kontak</a>
-                            </li>
-                            <li>
-                                <a href="https://psb.sekolahimpian.com" style="color: coral; font-weight: bold"
+                                <a href="https://psb.sekolahimpian.com" style="color: #f6921f; font-weight: bold"
                                     target="_blank" id="psb">Pendaftaran Santri Baru</a>
                             </li>
                         </ul>
@@ -415,11 +400,6 @@
                     </div>
                     <div class="header-extra d-flex align-items-center">
 
-                        <div class="offcanvas-widget d-lg-block d-none">
-                            <div class="offcanvas-icon">
-                                <span></span><span></span><span></span>
-                            </div>
-                        </div>
                         <div class="nav-toggler">
                             <span></span><span></span><span></span>
                         </div>
@@ -432,4 +412,5 @@
             </div>
         </div>
     </header>
+
     <!--====== Header Part End ======-->
